@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
                     final String getPassword = snapshot.child(dni).child("password").getValue(String.class);
                     if (getPassword.equals(password)) {
                         Toast.makeText(LoginActivity.this,"Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(LoginActivity.this, InicioActivity.class));
+                        startActivity(new Intent(LoginActivity.this, RegistrarCitaActivity.class));
                     } else {
                         Toast.makeText(LoginActivity.this,"Contraseña Incorrecta", Toast.LENGTH_SHORT).show();
                     }
