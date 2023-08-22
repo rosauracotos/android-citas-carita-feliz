@@ -7,13 +7,17 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="15dp"
+    android:background="@color/teal_200"
     tools:context=".RegistrarActivity">
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Registro"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
